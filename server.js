@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 app.get("/top-scores", (req, res) => {
-  res.json({ scores: [100, 95, 90, 85, 190, 120, 180, 200] });
+  res.json({ scores: [100, 95, 90, 85, 190, 120, 180, 200,98765,65432] });
 });
 
 const PORT = process.env.PORT || 3000;
